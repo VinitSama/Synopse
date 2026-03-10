@@ -1,0 +1,87 @@
+# ----------------------
+# Environment variables
+# ----------------------
+.env
+.env.*
+*.env
+
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# ----------------------
+# Virtual environments
+# ----------------------
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# ----------------------
+# FastAPI / Uvicorn logs
+# ----------------------
+*.log
+
+# ----------------------
+# Angular
+# ----------------------
+node_modules/
+dist/
+tmp/
+out-tsc/
+
+# Angular cache
+.angular/cache
+
+# ----------------------
+# Node / npm
+# ----------------------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ----------------------
+# IDE files
+# ----------------------
+.vscode/
+.idea/
+
+# ----------------------
+# OS files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Coverage reports
+# ----------------------
+coverage/
+htmlcov/
+.coverage
+.coverage.*
